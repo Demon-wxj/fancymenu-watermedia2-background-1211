@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bcc_sao_fancymenu_background",
+  "version": "${version}",
+  "name": "BCC SAO FancyMenu WaterMedia 2 Background",
+  "description": "Local video and audio menu background.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "local.bccsaomenu.MenuBackgroundClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fancymenu": "3.9.1",
+    "watermedia": "2.1.37"
+  },
+  "license": "GPL-3.0-only"
+}

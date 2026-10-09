@@ -1,0 +1,26 @@
+{
+  "upstream_family": "Noto Serif SC",
+  "official_distribution": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+  "upstream_repository": "https://github.com/notofonts/noto-cjk",
+  "license": "SIL Open Font License 1.1",
+  "files": [
+    {
+      "file": "OFL-NotoSerifSC.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "file": "NotoSerifSC-METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/METADATA.pb",
+      "bytes": 1373,
+      "sha256": "e0c253c6f850fc3ef6e7fc398361133dd55acc408c931822a3f69cfac08554c2"
+    },
+    {
+      "file": "NotoSerifSC-variable.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+      "bytes": 25125512,
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9"
+    }
+  ]
+}

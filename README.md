@@ -1,13 +1,11 @@
-# FancyMenu 音画背景桥接
+# FancyMenu 音画背景
 
-为 FancyMenu 注册 bcc_sao_watermedia2 背景类型，使用 WaterMedia 2 播放本地含声音 MP4，并恢复渲染状态、管理生命周期。
+给 FancyMenu 增加本地视频背景，用 WaterMedia 2 同时播放画面和声音。
 
-分类：客户端兼容与界面。原本地版本 `1.0.1-mc1.21.1`，运行目标 Minecraft **1.21.1 / Fabric / Java 21**。Mod ID：`bcc_sao_fancymenu_background`。
+Minecraft **1.21.1 / Fabric / Java 21**。源码版本 `1.0.1-mc1.21.1`，Mod ID：`bcc_sao_fancymenu_background`。仅客户端使用。
 
-本次公开整理仅完成源码筛选、相对依赖配置、中文文档和静态校验；未重新构建、启动 Minecraft 或验证多人玩法，历史本机测试不等于本副本通过验证。
+安装 FancyMenu 3.9.1、WaterMedia 2.1.37 和本扩展，在布局编辑器里选择 **BCC / SAO 视频背景**（`bcc_sao_watermedia2`）。视频、加载图片和音量可在背景设置中修改。仓库不附视频，需自行提供有权使用的文件。
 
-- [构建与限制](BUILDING.md)
-- [安装与使用](INSTALLATION.md)
-- [第三方来源和许可范围](THIRD_PARTY_NOTICES.md)
+[构建](BUILDING.md) · [安装](INSTALLATION.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
 
-许可：GPL-3.0-only（原创代码；第三方例外见说明）。已有作者、来源和逐文件许可保留；不以仓库总许可覆盖第三方素材。
+代码采用 GPL-3.0-only；菜单字体是 Noto Serif SC 的修改子集，保留 SIL OFL-1.1。FancyMenu 和 WaterMedia 是独立依赖。整理时未重新编译或进游戏测试。
